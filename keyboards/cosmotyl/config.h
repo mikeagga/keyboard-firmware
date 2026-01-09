@@ -27,3 +27,7 @@
 #define SERIAL_USART_RX_PIN GP1
 
 #include "keyboards/cosmos/cosmotyl/vik/config.vik.post.h"
+
+#define TAPPING_TERM 200
+
+#define IGNORE_MOD_TAP_INTERRUPT
