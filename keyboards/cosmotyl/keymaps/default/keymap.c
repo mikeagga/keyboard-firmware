@@ -13,12 +13,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_BASE] = LAYOUT(
         MO(_FN), KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_MNXT,       KC_VOLU, KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    MO(_FN),
-        KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_MPRV,       KC_VOLD, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_SPACE,
+        KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_MPRV,       KC_VOLD, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    QK_LLCK,
         KC_ESC,  KC_A,    MT(MOD_LALT, KC_S),    MT(MOD_LCTL, KC_D),    MT(MOD_LGUI, KC_F),    KC_G,    KC_MPLY,       KC_MUTE, KC_H,    MT(MOD_RGUI, KC_J),    MT(MOD_RCTL, KC_K),    MT(MOD_RALT, KC_L),    KC_SCLN, KC_QUOT,
         KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                    				 KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
         KC_LALT, KC_LCTL, KC_LGUI,                                            																		KC_RGUI, KC_RCTL, KC_RALT,
 
-        MO(_NUM), MO(_NAV), KC_SPACE,                         CW_TOGG,   KC_TAB,  MO(_NAV),
+        MO(_NUM), MO(_NAV), CW_TOGG,                         QK_REP,   KC_TAB,  MO(_NAV),
         KC_DEL, KC_BSPC, MO(_SYM),                            MO(_SYM), KC_SPC, KC_ENT 
     ),
 	

@@ -6,5 +6,7 @@ MOUSEKEY_ENABLE = yes
 CAPS_WORD_ENABLE = yes
 NKRO_ENABLE = yes
 LTO_ENABLE = yes
+LAYER_LOCK_ENABLE = yes
+REPEAT_KEY_ENABLE = yes
 
 include $(KEYBOARD_PATH_1)/vik/rules.mk
