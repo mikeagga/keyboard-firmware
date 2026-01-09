@@ -6,6 +6,8 @@
 
 #define EE_HANDS
 
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
 #define VIK_SPI_DRIVER   SPID1
 #define VIK_SPI_SCK_PIN  GP14
 #define VIK_SPI_MOSI_PIN GP15

@@ -17,7 +17,6 @@
         "encoder": false,
         "encoder_map": false,
         "extrakey": true,
-				"mousekey": true,
         "oled": false
     },
     "matrix_pins": {
